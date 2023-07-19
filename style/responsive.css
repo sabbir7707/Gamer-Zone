@@ -1,0 +1,142 @@
+@media screen and (max-width:425px) {
+
+    .nav-container,
+    .play-instantly {
+        flex-direction: column;
+    }
+
+    .nav-items-container {
+        flex-direction: column;
+
+    }
+
+    .nav-items-container a {
+        margin-top: 20px;
+    }
+
+    .banner-contant {
+        flex-direction: column;
+    }
+
+    .banner-container {
+        width: 401px;
+        height: 500px;
+        margin: 20px;
+        margin-right: 10px;
+
+    }
+
+    .banner-contant img {
+        width: 100%;
+        margin-left: 70px;
+
+    }
+
+    .banner-contant-para {
+        padding-left: 75px;
+    }
+
+    .online-game-contant p {
+
+        font-size: 15px;
+    }
+
+    .Online-Games {
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .play-instantly,
+    .play-instantly-contant {
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    .play-instantly img {
+        width: 100%;
+    }
+
+    .play-instantly-img img {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+
+    }
+
+    .play-instantly-contant {
+        align-items: center;
+        text-align: center;
+    }
+
+    .all-game-item {
+        width: 100%;
+        margin: 0px;
+        gap: 0px;
+        margin-top: 0px;
+
+    }
+
+    .game-item {
+        width: 100%;
+        margin: 0px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1px;
+        padding: 0px;
+    }
+
+    .game-logo {
+        width: 100px;
+        margin: 0px;
+
+
+    }
+
+    .game-name img {
+        width: 30%;
+
+
+    }
+
+    .game-name {
+        width: 100%;
+        justify-content: left;
+
+
+    }
+
+    .game-name p {
+        text-align: left;
+        font-size: 10px;
+    }
+
+    /* footer*/
+    .footer {
+        height: 650px
+    }
+
+    .some-item {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 0px
+    }
+
+    .footer-icon {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .sort-p {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+    }
+
+
+
+}
