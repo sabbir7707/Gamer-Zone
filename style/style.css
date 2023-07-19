@@ -121,10 +121,11 @@ nav {
     font-size: 20px;
     font-weight: 500;
     line-height: 10px;
-     text-align: left; 
-     padding-left: 150px;
-     padding-bottom: 20px;
+    text-align: left;
+    padding-left: 150px;
+    padding-bottom: 20px;
 }
+
 .btn1-parimary {
     padding: 20px 33px;
     display: inline-flex;
@@ -133,7 +134,7 @@ nav {
     color: #FFF;
     font-size: 20px;
     text-transform: uppercase;
-     margin-right: 10px;
+    margin-right: 10px;
 }
 
 .btn2-parimary {
@@ -151,30 +152,65 @@ nav {
     width: auto;
     margin-right: 100px;
 }
+
 /*banner end*/
 /*Online Games Funny Videos*/
-.online-game-contant{
+.online-game-contant {
     text-align: center;
-         align-items: center;
+    align-items: center;
 }
 
-.Online-Games{
-   
+.Online-Games {
+
     max-width: 1200px;
     margin: auto 50px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-.online-game-card{
-  
-    width: 100%;
-   height: 10%px;
-   text-align: center;
-}
-.online-game-card img{
-    width: 292px;
-height: 350px;
-border-radius: 16px;   
-}
-/*online game end/*
 
+.online-game-card {
+
+    width: 100%;
+    height: 10%px;
+    text-align: center;
+}
+
+.online-game-card img {
+    width: 292px;
+    height: 350px;
+    border-radius: 16px;
+}
+
+/*online game end/*
+/* paly instainly*/
+.play-instantly {
+
+    margin: auto 50px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+
+.play-instantly-contant {
+    margin-top: 300px;
+    align-items: center;
+    margin-left: 100px;
+
+}
+
+.play-instantly-contant p {
+    color: #534C64;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.play-img {
+
+    position: relative;
+    bottom: 250px;
+    right: 150px;
+
+}
+/*end paly instial*/
